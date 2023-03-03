@@ -23,7 +23,7 @@ public class Driver {
 
     private static WebDriver driver;
 
-    public static WebDriver getDriver() {
+    public static WebDriver getDriver() { // this method will return the same driver instance every time we call it
         if (driver == null) {
             if (System.getProperty("BROWSER") == null) {
                 browser = ConfigurationReader.getProperty("browser");
