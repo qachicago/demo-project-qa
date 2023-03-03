@@ -14,11 +14,6 @@ Feature: The application should be running
 
 
 
-    #simple test
-  #yesy
-
-
-
 
 
 
